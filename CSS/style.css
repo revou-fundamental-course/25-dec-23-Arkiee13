@@ -1,0 +1,52 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#7385ff,#a1acf7,#d7dbf5);
+}
+
+
+.wrapper {
+    width: 500px;
+    background: transparent;
+    border: 2px solid rgb(36, 38, 46);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px black;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    padding: 0px 0px 0px 10px;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
